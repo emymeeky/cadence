@@ -169,18 +169,18 @@ are signed in, sends Cadence's account service a short report: which part was mi
 one-line description of the failure, and the Cadence version. At most one report per problem a
 day. It holds no account id, no prompts, images, file names or Flow project addresses.
 
-**Usage counts, only if you say yes.** After you sign in, Cadence asks once whether you'd like to
-share anonymous counts of the steps you reach: installed, signed in, first run, images saved,
-Studio opened, video or Shorts exported, checkout opened, Gemini key added, clip saved. Each step
-is noted on your computer and, only if you choose "Share counts" (or switch it on in Output),
-sent once, as just the step's name, the Cadence version and your approximate country (from the
-time-zone setting, as above). No account id, install id, prompts,
-media or anything else. Switch it off at any time in Output; nothing further is sent.
+**Usage counts, on unless you switch them off.** Cadence shares anonymous counts of the steps you
+reach: installed, signed in, first run, images saved, Studio opened, video or Shorts exported,
+checkout opened, Gemini key added, clip saved. Each step is noted on your computer and sent once,
+as just the step's name, the Cadence version and your approximate country (from the time-zone
+setting, as above). No account id, install id, prompts, media or anything else. Switch "Share
+anonymous usage counts" off at any time at the bottom of the Settings tab; nothing further is
+sent.
 
 ## What is never collected
 
 Apart from the account record and the reports above, nothing is sent to us. There
-are no analytics, no usage statistics, no crash reporting, no advertising, and no third-party
+are no other analytics or usage statistics, no crash reporting, no advertising, and no third-party
 libraries that phone home. No passwords, and no card or payment details. No location beyond the country above (no IP address, GPS or city). No browsing history. The extension
 does not read any website other than Google Flow, and it contains no remotely loaded code.
 Gemini's reply is text that Cadence reads as a plan; it is never run as code.
